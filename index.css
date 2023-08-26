@@ -1,0 +1,57 @@
+@font-face {
+    src: url("digital-dismay.otf");
+    font-family: Digital;
+}
+body {
+    margin: 24px;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    padding: 82px 69px;
+}
+
+.container {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    color:#EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.home-score {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 120px;
+    text-align: center;
+    padding-top: 25px;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 5px;
+    font-family: Digital;
+    font-size: 90px;
+}
+
+.add-score {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Digital;
+    color:#9AABDB; 
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0px;
+    background-color: #1B244A;
+    border: 2px solid #9AABDB;
+    border-radius: 5px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: 18px;
+}
